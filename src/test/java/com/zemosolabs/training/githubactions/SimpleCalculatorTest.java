@@ -12,7 +12,7 @@ public class SimpleCalculatorTest {
 
     @Test
     public void testSum(){
-        Assert.assertEquals(2, calculator.sum(1, 2, 2));
+        Assert.assertEquals(5, calculator.sum(1, 2, 2));
     }
 
     @Test
